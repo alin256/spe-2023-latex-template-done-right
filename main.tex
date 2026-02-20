@@ -8,6 +8,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{helvet}
 \usepackage{url}
+\usepackage[hidelinks]{hyperref}
+\usepackage[round]{natbib}
 
 
 \input{chatgptFormating}
@@ -108,27 +110,17 @@
 {\footnotesize{Table 1—Table captions should begin with a short description of the table. Format tables using the Microsoft Word table commands and structures. Do not create tables using spaces or tab characters. Large tables presenting rich data should be presented as separate Excel or .csv files, not as part of the main text.}}
 \vspace{5mm}
 
+\section{Test citation}
 
+Developing \citet{alyaev2026template}, we use an improved \LaTeX template \citep{alyaev2026template}.
 
-\begin{wrapfigure}{r}{20.32cm}  
-\begin{minipage}[t]{0.95\linewidth} 
-\begin{tcolorbox}[colback=gray!5]
-\begin{center}
-    {\color{red}{ATTENTION! DELETE AFTER READING.}}\\
-    {\textbf{The final layout of the manuscript will differ from your original submission.}}\\
-    \vspace{5mm}
-    \textrm{All manuscripts will be tagged into XML format for final publication. Standardized styles and fonts will be used in the final layout of the manuscript. Links will be added for references, figures, tables, and equations. All figures and tables with associated captions will be placed after the paragraph of first mention in the final layout of conference manuscripts and as near as possible to first mention in journal manuscripts.}\\
-    \vspace{5mm}
-    \textrm{Reminder: 	Styles have been built into the template. If you type directly over an element, the built-in formatting will be applied automatically. When adding additional text, highlight the new text and then select the appropriate style from the Home - Styles tab. Instructions for using the SPE Manuscript Template are available under the Peer-Reviewed Journals heading on the SPE Author Resources webpage at https://www.spe.org/en/authors/resources/.}
-\end{center}         
-\end{tcolorbox} 
-\end{minipage}  
-\end{wrapfigure}
 
 \section{Acknowledgemets}
-The manuscript is prepared in Latex using the template from Sergey Alyaev: \\
+The manuscript is prepared in Latex using the template from Sergey Alyaev:\\ 
 \url{https://github.com/alin256/spe-2023-latex-template-done-right}.
 
+\bibliographystyle{kluwer}
+\bibliography{lib}
 
 \end{document}
 
