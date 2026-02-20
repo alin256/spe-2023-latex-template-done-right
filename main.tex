@@ -51,52 +51,25 @@
 \end{flushleft}
 \vspace{5mm}
 
+
+% ===============================
+% main document 
+% Note, that you should avoid placing figures on the first page because the title page is not working correctly
+% To include the original non-compiling style guides, uncomment
+% \input{comparison}
+
 \section{First-Level Heading new}
 
-\begin{flushleft}
-\large{\textbf{First-Level Heading}}\\
-\end{flushleft}
 
-\setlength{\parindent}{0pt}
-\justifying{\normalsize{Body text 1 paragraph.}}
-\vspace{3mm}
 
-\setlength{\parindent}{20pt}
-\justifying{\normalsize{Body text 2 paragraph.}}
-\vspace{5mm}
 
 \subsection{Second-Level Heading new}
 
-\begin{flushleft}
-\normaltext{{\textbf{Second-Level Heading.}}}
-\end{flushleft}
+
 
 \subsubsection{Third-Level Heading new}
 
-\setlength{\parindent}{20pt}
-\normaltext{{\textbf{\textit{Third-Level Heading.}}}}\\
-
-\setlength{\parindent}{20pt}
-\normaltext{{\textit{Fourth-Level Heading.}}}\\
-\vspace{5mm}
-
-
-
-
-\setlength{\parindent}{0pt}
-\justifying
-{\footnotesize{\textbf{Fig. 1—Figure captions should begin with an overall descriptive statement of the figure followed by additional supporting text. Captions should be placed immediately after each figure. Figure parts are indicated with lower-case letters: (a) Part 1; (b) Part 2; (c) Part 3.}}}
-\vspace{5mm}
-
-\begin{figure}[b!]
-    \centering
-    Here is my figure.
-    \caption{Figure caption.}
-    \label{fig:placeholder}
-\end{figure}
-
-
-
+% new page to avoif figures/tables on the first page
 \newpage
 
 \begin{table}[t!]
@@ -106,9 +79,13 @@
     \label{tab:placeholder}
 \end{table}
 
-\setlength{\parindent}{0em}
-{\footnotesize{Table 1—Table captions should begin with a short description of the table. Format tables using the Microsoft Word table commands and structures. Do not create tables using spaces or tab characters. Large tables presenting rich data should be presented as separate Excel or .csv files, not as part of the main text.}}
-\vspace{5mm}
+\begin{figure}[b!]
+    \centering
+    Here is my figure.
+    \caption{Figure caption.}
+    \label{fig:placeholder}
+\end{figure}
+
 
 \section{Test citation}
 
