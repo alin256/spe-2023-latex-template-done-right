@@ -1,5 +1,5 @@
 \documentclass[10pt, twoside]{article}
-\usepackage{color}
+\usepackage{xcolor}
 \usepackage{wrapfig}
 \definecolor{light-gray}{gray}{0.95}
 \usepackage{tcolorbox}
@@ -13,6 +13,16 @@
 
 
 \input{chatgptFormating}
+
+
+% helper macrros
+\newcommand{\todo}[1]{{\color{red} TODO: #1}}
+% \newcommand{\todo}[1]{}
+\newcommand{\TODO}[1]{\todo{#1}}
+
+\newcommand{\figref}[1]{Fig~\ref{#1}}
+
+
 
 \begin{document}
 \begin{flushleft}
@@ -58,6 +68,8 @@
 % To include the original non-compiling style guides, uncomment
 % \input{comparison}
 
+\todo{Fix the front-page template}
+
 \section{First-Level Heading new}
 
 
@@ -90,6 +102,7 @@
 \section{Test citation}
 
 Developing \citet{alyaev2026template}, we use an improved \LaTeX template \citep{alyaev2026template}.
+The template was needed to write \citet{saleem2026generation} \citep{saleem2026generation}.
 
 
 \section{Acknowledgemets}
