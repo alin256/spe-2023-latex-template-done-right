@@ -11,6 +11,7 @@ Implemented and tested enviornments:
  - Seciton / Subsection / Subsubsection
  - Figure
  - Table
+ - Decent reference style
 
 ## Futher work
 Implement styles for the header of the document.
