@@ -13,6 +13,8 @@ Implemented and tested enviornments:
 ## Futher work
 Implement styles for the header of the document.
 
+Currently the original examples are kept still giving compilation issues - they would be removed in later versions. 
+
 Please contribute to the repository if you improve the template, and add your name to acknowledgemnts.
 
 ## Acknowledgement
