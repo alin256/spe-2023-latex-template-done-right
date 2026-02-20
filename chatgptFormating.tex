@@ -1,0 +1,59 @@
+% -------- SECTION FORMATTING ----------
+\usepackage{titlesec}
+
+\setcounter{secnumdepth}{0}
+
+% Section
+\titleformat{\section}
+  {\large\bfseries}
+  {\thesection.}
+  {0.5em}
+  {}
+
+% Subsection
+\titleformat{\subsection}
+  {\normalsize\bfseries}
+  {\thesubsection.}
+  {0.5em}
+  {}
+
+% Subsubsection
+\titleformat{\subsubsection}
+  {\normalsize\bfseries\itshape}
+  {\thesubsubsection.}
+  {0.5em}
+  {}
+
+% Optional: spacing
+\titlespacing*{\section}{0pt}{3mm}{2mm}
+\titlespacing*{\subsection}{0pt}{2mm}{1mm}
+\titlespacing*{\subsubsection}{0pt}{1mm}{1mm}
+
+
+% -------- FIGURE CAPTIONS ----------
+\usepackage{caption}
+
+\usepackage{caption}
+
+\DeclareCaptionLabelSeparator{dash}{\textemdash}
+
+\captionsetup[figure]{
+  name=Fig.,
+  labelfont=bf,
+  textfont=bf,
+  font=footnotesize,
+  labelsep=dash,
+  justification=raggedright,
+  singlelinecheck=false
+}
+
+% ---- Tables (label normal, text normal) ----
+\captionsetup[table]{
+  name=Table,
+  labelfont=normalfont,
+  textfont=normalfont,
+  font=footnotesize,
+  labelsep=dash,
+  justification=raggedright,
+  singlelinecheck=false
+}
