@@ -24,6 +24,6 @@ Please contribute to the repository if you improve the template, and add your na
 If you use this template, acknowledging this would be appreciated:
 
 ```
-The manuscript is prepared in Latex using the template from Sergey Alyaev: \\
+The manuscript is prepared in \LaTeX{} using the template from Sergey Alyaev: \\
 \url{https://github.com/alin256/spe-2023-latex-template-done-right}.
 ```
